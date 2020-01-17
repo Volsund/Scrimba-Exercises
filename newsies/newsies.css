@@ -1,0 +1,40 @@
+body{
+    padding:40px;
+}
+h1{
+    text-align: center;    
+    display:block;    
+    font-size:50px;
+    border-bottom:10px double;
+}
+h3{
+    text-decoration: underline;
+    font-size:30px;
+}
+.article{
+    width: 45%;
+    display: inline-block;
+    
+  
+
+}
+.bold{
+    font-weight: bold;
+    font-style: italic;
+}
+h2{
+    font-size:40px;
+    text-align: center;
+    border-bottom:10px double;
+}
+h4{
+    text-align: center;
+    margin:10px;
+}
+.ad{
+    width:15%;
+    display:inline-block;
+    border-bottom:solid 3px;
+    margin:10px;
+}
+

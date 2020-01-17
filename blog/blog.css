@@ -1,0 +1,60 @@
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ABB779;
+}
+.nav{
+    text-align: center;
+}
+.navbar{
+    width:100%;
+    padding: 5px;
+    background-color:#5D6248;
+    position:fixed;
+    font-size: 20px;
+    font-weight: bold;
+    border:solid grey 50;
+    word-spacing:200px;
+    
+}
+.home,.videos,.photos,.about:hover{
+    cursor:pointer;
+}
+h1,h2,.post{
+    text-align: center;
+}
+h1{
+    position:relative;
+    top: 50px;
+}
+
+.post-container{
+    z-index: -1;
+    position:relative;
+    top:60px;
+    text-align: center;
+    background-color: #E3F794;
+    margin:30px;
+    padding:10px;
+}
+.post{  
+    width:1000px;
+    display: inline-block;
+}
+.post-date{
+    text-align: left;
+    font-style: italic;
+}
+img{
+    border: solid black 5px;
+    margin:10px;
+    float:left;
+    width:300px;
+}
+
+
